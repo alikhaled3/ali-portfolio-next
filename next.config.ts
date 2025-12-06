@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+module.exports = {
+  output: 'export', // static HTML export
+  basePath: isProd ? '/ali-portfolio-next' : '', // your GitHub repo name
+  assetPrefix: isProd ? '/ali-portfolio-next/' : '',
 };
-
-export default nextConfig;
