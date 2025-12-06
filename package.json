@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-      "export": "next build && next export"
+    "export": "next build && next export",
+    "deploy": "gh-pages -d out"
   },
+  "homepage": "https://alikhaled3.github.io/ali-portfolio-next",
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-avatar": "^1.1.11",
