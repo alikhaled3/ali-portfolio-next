@@ -25,7 +25,7 @@ export default function Hero() {
       >
         Hi, I'm{" "}
         <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent">
-          Ali Khaled Omar
+          Ali
         </span>
       </motion.h1>
 
