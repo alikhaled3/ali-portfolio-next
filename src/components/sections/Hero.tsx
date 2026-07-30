@@ -16,7 +16,7 @@ export default function Hero() {
       >
         <Sparkles size={14} /> Full-Stack Developer • 2+ Years Experience
       </motion.div>
-
+ 
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
